@@ -10,7 +10,7 @@ body {
 .container {
   background-color: rgb(0, 0, 199);
   border-radius: 0.5rem;
-  padding: 20px;
+  padding: 2rem;
   color: aliceblue;
 }
 
@@ -20,6 +20,7 @@ body {
   border-color: rgb(0, 0, 199);
   border-width: 3px;
   border-style: solid;
+  padding: 1rem;
 }
 
 #balance-container {
@@ -92,5 +93,5 @@ label {
 
 h2 {
   text-transform: uppercase;
-  padding: 0.2rem;
+  /* padding: 0.2rem; */
 }
