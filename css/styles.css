@@ -1,5 +1,10 @@
 * {
   font-family: 'Open Sans', sans-serif;
+  /* border: 1px solid red; */
+}
+
+body {
+  background-color: aliceblue;
 }
 
 .container {
@@ -23,7 +28,7 @@
   border-color: rgb(0, 0, 199);
   border-width: 3px;
   border-style: solid;
-  width: 99%;
+  width: 100%;
   min-height: 2rem;
   float: right;
   padding: 1rem;
@@ -35,7 +40,10 @@ form {
 }
 
 input {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(0, 0, 199);
+  background-color: aliceblue;
 }
 header {
   border-bottom: 2px solid rgb(0, 0, 199);
@@ -55,4 +63,34 @@ h3 {
 
 .positive-balance {
   color: green;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: aliceblue;
+}
+
+button:hover {
+  background-color: rgb(189, 212, 233);
+}
+
+button:active {
+  background-color: rgb(143, 174, 202);
+}
+
+label {
+  font-size: 0.8rem;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding: 0.2rem;
 }
