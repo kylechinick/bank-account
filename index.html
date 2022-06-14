@@ -12,5 +12,38 @@
   </head>
   <body>
     <h1>Bank Account</h1>
+
+    <form id="new-account-form">
+      <label for="new-account-name-field"
+        >Enter a name for your new account</label
+      >
+      <input
+        type="text"
+        name="new-account-name-field"
+        id="new-account-name-field"
+      />
+      <label for="initial-deposit-field"
+        >Enter the amount for your initial deposit</label
+      >
+      <input
+        type="number"
+        name="initial-deposit-field"
+        id="initial-deposit-field"
+      />
+      <button type="submit">Create New Account</button>
+    </form>
+
+    <form id="update-balance-form">
+      <label for="deposit-field">
+        Enter the amount you would like to deposit
+      </label>
+      <input type="number" name="deposit-field" id="deposit-field" />
+      <label for="withdrawal-field">
+        Enter the amount you would like to withdraw
+      </label>
+      <input type="number" name="withdrawal-field" id="withdrawal-field" />
+      <button type="submit">Submit Transaction</button>
+    </form>
+    <div id="balance-container"></div>
   </body>
 </html>
