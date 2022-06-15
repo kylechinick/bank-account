@@ -107,6 +107,9 @@ $(document).ready(function () {
 
     newAccountObject.deposit(depositAmount);
 
+    // Clear Deposit Field
+    $('#deposit-field').val('');
+
     console.log('Test account balance:', [1].ballance);
 
     //$('h1').append(bank.bankAccounts[1001].ballance);
