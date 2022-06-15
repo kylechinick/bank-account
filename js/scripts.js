@@ -44,7 +44,7 @@ console.log('This is the bank after adding the new account: ', bank);
 // UI Logic
 
 $(document).ready(function () {
-  $('#balance-container').text(
+  $('#balance-message').text(
     'You have $' + bank.bankAccounts[1].ballance + ' in your account.'
   );
 
@@ -102,7 +102,7 @@ $(document).ready(function () {
     } else {
       if (depositAmount) {
         targetAccount.deposit(depositAmount);
-        $('#balance-container').text(
+        $('#balance-message').text(
           'You now have $' + bank.bankAccounts[1].ballance + ' in your account.'
         );
         toggleBalanceStyling(bank.bankAccounts[1].ballance);
@@ -111,7 +111,7 @@ $(document).ready(function () {
     }
     if (withdrawalAmount) {
       targetAccount.withdrawal(withdrawalAmount);
-      $('#balance-container').text(
+      $('#balance-message').text(
         'You now have $' + bank.bankAccounts[1].ballance + ' in your account.'
       );
       console.log(bank.bankAccounts[1].ballance);
